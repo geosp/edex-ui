@@ -178,8 +178,8 @@ div.fs_disp_other > h3 {
 
 div#fs_space_bar {
     position: relative;
-    top: 1.5vh;
-    border-top: 1px solid rgba(var(--color_r), var(--color_g), var(--color_b), 0.5);
+    top: 1.3vh;
+    border-top: 0.092vh solid rgba(var(--color_r), var(--color_g), var(--color_b), 0.3);
 }
 
 div#fs_space_bar > h1 {
