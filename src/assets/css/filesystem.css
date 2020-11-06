@@ -179,7 +179,7 @@ div.fs_disp_other > h3 {
 div#fs_space_bar {
     position: relative;
     top: 1.5vh;
-    left: .15vw;
+    border-top: 1px solid rgba(var(--color_r), var(--color_g), var(--color_b), 0.5);
 }
 
 div#fs_space_bar > h1 {
@@ -226,17 +226,6 @@ div#fs_space_bar > progress {
     padding-top: .5vh;
     -webkit-appearance: none;
 }
-
-div#fs_space_bar > progress::after {
-    content: "";
-    position: absolute;
-    right: -.1vh;
-    top: .45vh;
-    width: .1vh;
-    height: 1.7vh;
-    background: rgba(var(--color_r), var(--color_g), var(--color_b), 0.8);
-}
-
 div#fs_space_bar > progress:not([value])::after {
     animation: space_bar_working 1.7s ease-in-out alternate infinite;
     background: rgba(var(--color_r), var(--color_g), var(--color_b), 1);
