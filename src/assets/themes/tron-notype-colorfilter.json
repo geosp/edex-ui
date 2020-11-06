@@ -25,11 +25,11 @@
          "mix(0.7)"
         ]
     },
-    "globe": {
-        "base": "#000000",
-        "marker": "#aacfd1",
-        "pin": "#aacfd1",
-        "satellite": "#aacfd1"
+    "globe": {      
+        "base": "#aacfd1",        
+        "marker": "#df740c",        
+        "pin": "#aacfd1",        
+        "satellite": "#ff5c57"        
     },
     "injectCSS": "section#filesystem{left: 0;width:82vw} section#filesystem>h3.title, section#filesystem>div{width:82vw;padding-left:10px;} section#keyboard{display:none;}"
 }
